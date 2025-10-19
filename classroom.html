@@ -1,65 +1,95 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Herramientas de Google</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="estilos.css" />
-  </head>
-  <body>
-    <header>
-      <meta
-        name="descripción"
-        content="En este sitio se podrán encontrar los recursos sobre herramientas de Google"
-      />
-    </header>
-    <main>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Herramientas de Google</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+
+<body>
+  <header>
+    <meta name="descripción" content="En este sitio se podrán encontrar los recursos sobre herramientas de Google" />
+  </header>
+  <main>
+    <ul>
+      <div class="contenedor"><img src="classroom.png" alt="Logo" /></div>
+      <h3>Google Classroom</h3>
+      <p>
+        Google Classroom es una plataforma de gestión del aprendizaje (LMS -
+        Learning Management System) basada en la web que permite a
+        profesores y estudiantes interactuar y colaborar de manera eficiente
+        tanto dentro como fuera del aula física.
+      </p>
+      <hr />
       <ul>
-        <div class="contenedor"><img src="classroom.png" alt="Logo" /></div>
-          <h3>Google Classroom</h3>
-          <p>
-            Google Classroom es una plataforma de gestión del aprendizaje (LMS -
-            Learning Management System) basada en la web que permite a
-            profesores y estudiantes interactuar y colaborar de manera eficiente
-            tanto dentro como fuera del aula física.
-          </p>
-          <hr />
-          <ul>
-            <h3 id="recursos">Recursos</h3>
-            <a href="#acceso"><li>Acceso a Classroom</li></a>
-            <a href="#unirse"><li>Unirse a una clase</li></a>
-            <a href="#crear"><li>Crear una clase</li></a>
-            <a href="#archivar"><li>Archivar una clase</li></a>
-            <a href="#tablon"><li>Tablón</li></a>
-            <a href="#trabajo_en_clase"><li>Trabajo en clase</li></a>
-            <a href="#crear_tareas"><li>Crear tarea</li></a>
-            <a href="#crear_formularios"><li>Crear cuestionarios</li></a>
-            <a href="#crear_preguntas"><li>Crear Preguntas</li></a>
-            <a href="#crear_material"><li>Crear Materiales</li></a>
-            <a href="#reutilizacion"><li>Reutilización de material</li></a>
-            <a href="#crear_tema"><li>Crear temas</li></a>
-            <a href="#asignar_alumnos"><li>Asignar alumnos</li></a>
-            <a href="#asignar_temas"><li>Asignar temas</li></a>
-            <a href="#material"
-              ><li>
-                Subir archivos, formularios, enlaces, carpetas drive, video
-              </li></a
-            >
-            <a href="#configurar_entrega"
-              ><li>Configurar fechas y formas de entrega</li></a
-            >
-            <a href="#realizar_entregas"><li>Realizar entregas</li></a>
-            <a href="#rubricas"><li>Rúbricas</li></a>
-            <a href="#programar"><li>Programar publicación</li></a>
-          </ul>
-          <hr>
-          <!--
+        <h3 id="recursos">Recursos</h3>
+        <a href="#acceso">
+          <li>Acceso a Classroom</li>
+        </a>
+        <a href="#unirse">
+          <li>Unirse a una clase</li>
+        </a>
+        <a href="#crear">
+          <li>Crear una clase</li>
+        </a>
+        <a href="#archivar">
+          <li>Archivar una clase</li>
+        </a>
+        <a href="#tablon">
+          <li>Tablón</li>
+        </a>
+        <a href="#trabajo_en_clase">
+          <li>Trabajo en clase</li>
+        </a>
+        <a href="#crear_tareas">
+          <li>Crear tarea</li>
+        </a>
+        <a href="#crear_formularios">
+          <li>Crear cuestionarios</li>
+        </a>
+        <a href="#crear_preguntas">
+          <li>Crear Preguntas</li>
+        </a>
+        <a href="#crear_material">
+          <li>Crear Materiales</li>
+        </a>
+        <a href="#reutilizacion">
+          <li>Reutilización de material</li>
+        </a>
+        <a href="#crear_tema">
+          <li>Crear temas</li>
+        </a>
+        <a href="#asignar_alumnos">
+          <li>Asignar alumnos</li>
+        </a>
+        <a href="#asignar_temas">
+          <li>Asignar temas</li>
+        </a>
+        <a href="#material">
+          <li>
+            Subir archivos, formularios, enlaces, carpetas drive, video
+          </li>
+        </a>
+        <a href="#configurar_entrega">
+          <li>Configurar fechas y formas de entrega</li>
+        </a>
+        <a href="#realizar_entregas">
+          <li>Realizar entregas</li>
+        </a>
+        <a href="#rubricas">
+          <li>Rúbricas</li>
+        </a>
+        <a href="#programar">
+          <li>Programar publicación</li>
+        </a>
+      </ul>
+      <hr>
+      <!--
           <hr />
             <button id="miBoton">Mostrar Párrafo</button>
             <p id="miParrafo" class="oculto">
@@ -68,311 +98,462 @@
             </p>
             <hr>  
             -->
-            <h3 id="acceso" style="color: blue">Acceso a Classroom</h3>
-            <p>
-              Para acceder a la aplicación Classroom, se debe abrir un navegador web (Chrome, Firefox, Safari, Edge, etc).
-              Luego en la barra de direcciones colocar: https://classroom.google.com/ ó 
-             <a href="https://classroom.google.com">aquí</a>  y clickear "Enter".
-              Introducir e-mail y contraseña de ser requerido. Una vez que inicies sesión, verás el panel 
-              principal de Google Classroom, donde aparecerán las clases a las que te has unido o las que has creado.
-            </p>
-            <p>
-              <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
-            </p>
+      <h3 id="acceso" style="color: blue">Acceso a Classroom</h3>
+      <p>
+      <p>Como todas las herramientas de Google, para acceder a <span style="color: rgb(164, 38, 38);">Google
+          Classroom</span>, podemos hacerlo de 3 maneras distintas:</p>
 
-            <h3 id="unirse" style="color: blue">Unirse a una clase</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae magni omnis sapiente at quidem modi odio dolorum ex!
-              Repellendus aperiam, cum exercitationem eaque alias odio a rerum
-              explicabo iure suscipit.
-            </p>
-            <p>
-              <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
-            </p>
-
-            <h3 id="crear" style="color: blue">Crear una clase</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae magni omnis sapiente at quidem modi odio dolorum ex!
-              Repellendus aperiam, cum exercitationem eaque alias odio a rerum
-              explicabo iure suscipit.
-            </p>
-            <p>
-              <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
-            </p>
-
-            <h3 id="archivar" style="color: blue">Archivar una clase</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae magni omnis sapiente at quidem modi odio dolorum ex!
-              Repellendus aperiam, cum exercitationem eaque alias odio a rerum
-              explicabo iure suscipit.
-            </p>
-            <p>
-              <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
-            </p>
-
-            <h3 id="tablon" style="color: blue">Tablón</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae magni omnis sapiente at quidem modi odio dolorum ex!
-              Repellendus aperiam, cum exercitationem eaque alias odio a rerum
-              explicabo iure suscipit.
-            </p>
-            
-            <table>
-              <tr>
-                <th><h4>Para el docente</h4></th>
-                <th><h4>Para el estudiante</h4></th>
-              </tr>
-              <tr>
-                <td>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates neque mollitia tempora tempore quas accusantium sapiente enim cupiditate optio sint, at facere assumenda eum minus consequuntur hic ratione! Voluptas, doloribus.</p>
-                </td>
-                <td>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab deleniti iusto eaque fugit quo impedit tenetur? Quo quam deleniti ex error sapiente, culpa, vitae quia dolorum praesentium impedit quod?
-                </td>
-              </tr>
-            </table>
-
-            <p>
-              <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
-            </p>
-
-            <h3 id="trabajo_en_clase" style="color: blue">Trabajo en clase</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae magni omnis sapiente at quidem modi odio dolorum ex!
-              Repellendus aperiam, cum exercitationem eaque alias odio a rerum
-              explicabo iure suscipit.
-            </p>
-            <table>
-              <tr>
-                <th><h4>Para el docente</h4></th>
-                <th><h4>Para el estudiante</h4></th>
-              </tr>
-              <tr>
-                <td>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates neque mollitia tempora tempore quas accusantium sapiente enim cupiditate optio sint, at facere assumenda eum minus consequuntur hic ratione! Voluptas, doloribus.</p>
-                </td>
-                <td>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab deleniti iusto eaque fugit quo impedit tenetur? Quo quam deleniti ex error sapiente, culpa, vitae quia dolorum praesentium impedit quod?
-                </td>
-              </tr>
-            </table>            
-            <p>
-              <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
-            </p>
-
-            <h3 id="crear_tareas" style="color: blue">Crear tarea</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae magni omnis sapiente at quidem modi odio dolorum ex!
-              Repellendus aperiam, cum exercitationem eaque alias odio a rerum
-              explicabo iure suscipit.
-            </p>
-            <p>
-              <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
-            </p>
-
-            <h3 id="crear_formularios" style="color: blue">
-              Crear cuestionarios
-            </h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae magni omnis sapiente at quidem modi odio dolorum ex!
-              Repellendus aperiam, cum exercitationem eaque alias odio a rerum
-              explicabo iure suscipit.
-            </p>
-            <p>
-              <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
-            </p>
-
-            <h3 id="crear_preguntas" style="color: blue">Crear Preguntas</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae magni omnis sapiente at quidem modi odio dolorum ex!
-              Repellendus aperiam, cum exercitationem eaque alias odio a rerum
-              explicabo iure suscipit.
-            </p>
-            <p>
-              <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
-            </p>
-
-            <h3 id="crear_material" style="color: blue">Crear Materiales</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae magni omnis sapiente at quidem modi odio dolorum ex!
-              Repellendus aperiam, cum exercitationem eaque alias odio a rerum
-              explicabo iure suscipit.
-            </p>
-            <p>
-              <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
-            </p>
-
-            <h3 id="reutilizacion" style="color: blue">
-              Reutilización de material
-            </h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae magni omnis sapiente at quidem modi odio dolorum ex!
-              Repellendus aperiam, cum exercitationem eaque alias odio a rerum
-              explicabo iure suscipit.
-            </p>
-            <p>
-              <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
-            </p>
-
-            <h3 id="crear_tema" style="color: blue">Crear temas</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae magni omnis sapiente at quidem modi odio dolorum ex!
-              Repellendus aperiam, cum exercitationem eaque alias odio a rerum
-              explicabo iure suscipit.
-            </p>
-            <p>
-              <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
-            </p>
-
-            <h3 id="asignar_alumnos" style="color: blue">Asignar alumnos</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae magni omnis sapiente at quidem modi odio dolorum ex!
-              Repellendus aperiam, cum exercitationem eaque alias odio a rerum
-              explicabo iure suscipit.
-            </p>
-            <p>
-              <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
-            </p>
-
-            <h3 id="asignar_temas" style="color: blue">Asignar temas</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae magni omnis sapiente at quidem modi odio dolorum ex!
-              Repellendus aperiam, cum exercitationem eaque alias odio a rerum
-              explicabo iure suscipit.
-            </p>
-            <p>
-              <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
-            </p>
-
-            <h3 id="material" style="color: blue">
-              Subir archivos, formularios, enlaces, carpetas drive, video
-            </h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae magni omnis sapiente at quidem modi odio dolorum ex!
-              Repellendus aperiam, cum exercitationem eaque alias odio a rerum
-              explicabo iure suscipit.
-            </p>
-            
-            <p>
-              <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
-            </p>
-
-            <h3 id="configurar_entrega" style="color: blue">
-              Configurar fechas y formas de entrega
-            </h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae magni omnis sapiente at quidem modi odio dolorum ex!
-              Repellendus aperiam, cum exercitationem eaque alias odio a rerum
-              explicabo iure suscipit.
-            </p>
-            <p>
-              <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
-            </p>
-
-            <h3 id="realizar_entregas" style="color: blue">
-              Entregas
-            </h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae magni omnis sapiente at quidem modi odio dolorum ex!
-              Repellendus aperiam, cum exercitationem eaque alias odio a rerum
-              explicabo iure suscipit.
-            </p>
-            <table>
-              <tr>
-                <th><h4>Para el docente ( verificar )</h4></th>
-                <th><h4>Para el estudiante ( realizar )</h4></th>
-              </tr>
-              <tr>
-                <td>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates neque mollitia tempora tempore quas accusantium sapiente enim cupiditate optio sint, at facere assumenda eum minus consequuntur hic ratione! Voluptas, doloribus.</p>
-                </td>
-                <td>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab deleniti iusto eaque fugit quo impedit tenetur? Quo quam deleniti ex error sapiente, culpa, vitae quia dolorum praesentium impedit quod?
-                </td>
-              </tr>
-            </table>
-            <p>
-              <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
-            </p>
-
-            <h3 id="rubricas" style="color: blue">Rúbricas</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae magni omnis sapiente at quidem modi odio dolorum ex!
-              Repellendus aperiam, cum exercitationem eaque alias odio a rerum
-              explicabo iure suscipit.
-            </p>
-            <p>
-              <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
-            </p>
-
-            <h3 id="programar" style="color: blue">Programar publicación</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae magni omnis sapiente at quidem modi odio dolorum ex!
-              Repellendus aperiam, cum exercitationem eaque alias odio a rerum
-              explicabo iure suscipit.
-            </p>
-            <p>
-              <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
-            </p>
-          </ul>
-        </li>
+      <ul>
+        <li>Por acceso de apps</li>
+        <li>Por barra de direcciones</li>
+        <li>Por creación de archivo en la carpeta contenedora del Google Classroom</li>
       </ul>
-    </main>
-    <aside>
-      <div>
-        <ul>
-          <h1>Herramientas de Google</h1>
-          <li><a href="crear_cuenta.html">Crear cuenta Google</a></li>
-          <li>
-            <a href="acceder_cuenta.html">Acceder a cuenta Google</a>
-          </li>
-          <li><a href="documentos.html">Google Docs</a></li>
-          <li><a href="sitios.html">Google Sites</a></li>
-          <li><a href="formularios.html">Google Form</a></li>
-          <li><a href="gemini.html">Geminis</a></li>
-          <li><a href="planillas.html">Google Sheet</a></li>
-          <li><a href="index.html">Inicio</a></li>
-        </ul>
-      </div>
-      <hr />
-      <p><u>Autor</u>: Juan Pablo Rodriguez</p>
-      <p><u>Materia</u>: Recursos aplicados a otras disciplinas</p>
-      <p><u>Profesor</u>: Claudio Guecia</p>
-      <p><u>Año</u>: 2025</p>
-    </aside>
-    <footer>
-      <a href="documentos.html">Google Docs</a>
-      <p></p>
-      <a href="sitios.html">Google Sites</a>
-      <p></p>
-      <a href="formularios.html">Google Form</a>
-      <p></p>
-      <a href="gemini.html">Geminis</a>
-      <p></p>
-      <a href="classroom.html">Google Classroom</a>
-      <p></p>
-      <a href="planillas.html">Google Sheet</a>
-      <p></p>
-      <a href="index.html">Inicio</a>
-    </footer>
-    <script src="java.js"></script>
-  </body>
+      <br>
+      <p>Para ver cómo acceder siga el siguiente enlace. <a href="*" target="_blank">Aquí</a></p>
+
+      <p>
+        <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
+      </p>
+
+      <h3 id="unirse" style="color: blue">Unirse a una clase</h3>
+      <p>
+        Unirse a una clase en Google Classroom es el paso esencial para que un estudiante se incorpore formalmente al
+        entorno virtual de una asignatura o curso. Esta acción sirve para obtener acceso inmediato a todo el contenido,
+        la comunicación y las actividades que el profesor ha dispuesto, permitiendo al alumno recibir y entregar tareas,
+        consultar el tablón de anuncios, ver las calificaciones y compartir recursos e interactuar con compañeros y
+        docentes, centralizando así toda la experiencia educativa. Para lograrlo, el estudiante debe iniciar sesión en
+        Google Classroom con su cuenta de Google correcta, hacer clic en el botón de Unirse a una clase (identificado
+        con el icono + en la esquina superior), e introducir el código alfanumérico que le ha proporcionado el profesor,
+        o simplemente aceptar una invitación enviada por correo electrónico o mediante un enlace directo.
+      </p>
+      <p>
+        <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
+      </p>
+
+      <h3 id="crear" style="color: blue">Crear una clase</h3>
+      <p>
+        Crear una clase en Google Classroom es la acción inicial que realiza un profesor para establecer un aula virtual
+        centralizada en la plataforma, lo que le sirve como un sistema de gestión de aprendizaje para optimizar y
+        simplificar la enseñanza. Su utilidad principal radica en la posibilidad de organizar y gestionar tareas,
+        materiales, comunicaciones y calificaciones de forma digital y sin papel; el profesor puede publicar anuncios en
+        el tablón, asignar tareas con documentos y videos de Drive o YouTube, enviar comentarios en tiempo real a los
+        alumnos, y generar un código de clase que permite a los estudiantes unirse fácilmente. Para crearla, el docente
+        debe iniciar sesión en Google Classroom con su cuenta de Google, hacer clic en el botón de "Crear clase"
+        (identificado con el icono + en la esquina superior) y completar información básica como el nombre de la clase,
+        sección y materia.
+      </p>
+      <p>
+        <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
+      </p>
+
+      <h3 id="archivar" style="color: blue">Archivar una clase</h3>
+      <p>
+        Archivar una clase en Google Classroom es la acción que realiza un profesor cuando ha finalizado un curso y
+        desea retirarlo de la vista principal de clases activas, sin eliminar permanentemente su contenido. Esta función
+        sirve para ordenar la interfaz del docente y del alumno, trasladando la clase a una sección separada (Clases
+        Archivadas) con el fin de preservar el material, las tareas, las publicaciones y las calificaciones para una
+        futura consulta o posible reutilización. Al archivarla, se congela la clase, impidiendo que tanto profesores
+        como alumnos realicen modificaciones o añadan publicaciones nuevas, pero manteniendo accesible todo el material
+        histórico de la clase en Google Drive, siendo un paso de organización crucial antes de un nuevo periodo escolar.
+      </p>
+      <p>
+        <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
+      </p>
+
+      <h3 id="tablon" style="color: blue">Tablón</h3>
+      <p>
+        El Tablón (o Novedades) es la página de inicio y el centro de comunicación principal de cada clase en Google
+        Classroom, sirviendo esencialmente como un muro de noticias y anuncios al estilo de las redes sociales. Su
+        propósito fundamental es facilitar la comunicación fluida e inmediata entre el profesor y sus alumnos, y entre
+        los propios estudiantes si el profesor lo permite, ya que permite publicar anuncios importantes, recordatorios,
+        preguntas para debate, o compartir recursos adicionales (como enlaces, vídeos de YouTube o archivos de Google
+        Drive) para toda la clase o para alumnos específicos. Además, en el tablón suelen aparecer de forma cronológica
+        las notificaciones de las tareas y el material que el profesor va publicando en la sección "Trabajo de clase",
+        asegurando que todos los participantes estén al tanto de las novedades y fechas límite del curso.
+      </p>
+
+      <table>
+        <tr>
+          <th>
+            <h4>Para el docente</h4>
+          </th>
+          <th>
+            <h4>Para el estudiante</h4>
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <p>
+              Desde la perspectiva del docente, el Tablón (o Novedades) es la herramienta de comunicación principal,
+              utilizada para emitir anuncios generales y rápidos que informan a toda la clase sobre cualquier novedad
+              relevante. El profesor lo utiliza para publicar mensajes de bienvenida, recordar fechas de entrega,
+              informar sobre cambios en la planificación, o compartir rápidamente enlaces y materiales suplementarios
+              (como videos de YouTube o documentos de Google Drive) sin necesidad de crear una tarea formal. Además, el
+              docente puede usar el tablón para promover el debate al publicar preguntas abiertas, y tiene la capacidad
+              de controlar los permisos de los alumnos, decidiendo si pueden publicar sus propios hilos de conversación
+              o solo comentar las publicaciones del profesor, lo que le permite mantener el orden en el flujo de
+              información de la clase.
+            </p>
+          </td>
+          <td>
+            <p>Desde la perspectiva del estudiante, el "Tablón" (o Novedades) es la sección inicial de la clase que se
+              utiliza principalmente como un "tablero de anuncios y centro de información" para el curso. Su uso
+              esencial es "mantenerse informado" sobre los comunicados importantes y las últimas actualizaciones del
+              profesor, ya que en él aparecen todas las publicaciones en orden cronológico, incluyendo recordatorios,
+              enlaces a recursos, avisos generales, y las notificaciones de las tareas recién asignadas o materiales
+              compartidos. Además, si el profesor lo permite en la configuración, el alumno puede usar el tablón para
+              "participar activamente" creando sus propias publicaciones para plantear preguntas a toda la clase,
+              iniciar debates, compartir enlaces o archivos relevantes, o comentar y responder a las publicaciones de
+              sus
+              compañeros, facilitando la comunicación y la colaboración.</p>
+
+          </td>
+        </tr>
+      </table>
+
+      <p>
+        <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
+      </p>
+
+      <h3 id="trabajo_en_clase" style="color: blue">Trabajo en clase</h3>
+      <p>
+        La pestaña "Trabajo en clase" es el espacio central dentro de Google Classroom diseñado para la organización
+        estructurada del currículo y las actividades académicas del curso. Es donde el docente crea y publica de forma
+        jerárquica todos los materiales de estudio (documentos, enlaces, videos), las tareas evaluables, los
+        cuestionarios y las preguntas de debate, organizándolos mediante Temas para facilitar la navegación. Para el
+        alumno, esta sección funciona como un índice claro de todo lo que debe aprender y entregar, ofreciendo accesos
+        directos al Google Calendar para revisar fechas límite y a la Carpeta de Google Drive de la clase para gestionar
+        sus archivos de manera centralizada.
+      </p>
+      <table>
+        <tr>
+          <th>
+            <h4>Para el docente</h4>
+          </th>
+          <th>
+            <h4>Para el estudiante</h4>
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <p>Para el docente, la pestaña "Trabajo en clase" es el centro neurálgico para la gestión, organización y
+              distribución de todo el contenido académico y las actividades evaluables del curso. El profesor la utiliza
+              para crear y asignar formalmente tareas, preguntas, exámenes de cuestionario y material didáctico,
+              pudiendo organizarlos lógicamente mediante Temas (unidades, módulos, etc.) para que los alumnos encuentren
+              el contenido fácilmente. Además, es desde aquí donde el docente configura detalles cruciales como las
+              fechas de entrega, la puntuación, las rúbricas de evaluación y la opción de diferenciación (asignar
+              trabajos a alumnos específicos), y accede directamente al cuaderno de Drive de la clase y a Google
+              Calendar para una planificación y administración completas del currículo.</p>
+          </td>
+          <td>
+            <p>
+              Para el estudiante, la pestaña "Trabajo en clase" es el lugar organizado donde se concentra la estructura
+              curricular y todas las actividades que debe completar para el curso. El alumno la utiliza para navegar por
+              los contenidos organizados por Temas (unidades o módulos), acceder a los materiales de estudio (videos,
+              lecturas) y, lo más importante, consultar, realizar y entregar todas las tareas, cuestionarios y preguntas
+              asignadas, prestando especial atención a las fechas de vencimiento. Cuando realiza una tarea, añade o crea
+              su trabajo y luego debe hacer clic en "Entregar" o "Marcar como completada"; además, puede utilizar el
+              enlace al Google Calendar para visualizar un resumen de todas sus fechas de entrega y el acceso a la
+              Carpeta
+              de Drive para gestionar sus archivos de la clase.
+            </p>
+
+          </td>
+        </tr>
+      </table>
+      <p>
+        <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
+      </p>
+
+      <h3 id="crear_tareas" style="color: blue">Crear tarea</h3>
+      <p>
+        Una "Tarea" en Google Classroom es el tipo de publicación fundamental dentro de la pestaña "Trabajo en
+        clase" que permite al docente solicitar trabajos evaluables, con la capacidad de asignar una puntuación
+        específica, una fecha y hora de entrega límite, y criterios de evaluación mediante rúbricas. Para crear una, el
+        docente debe ir a la pestaña "Trabajo en clase", hacer clic en el botón "+ Crear" y seleccionar
+        "Tarea"; a continuación, ingresa el título, las instrucciones detalladas, adjunta o crea los documentos
+        necesarios (con opciones para que los alumnos editen copias individuales), establece los parámetros de
+        calificación y, finalmente, hace clic en "Asignar" o "Programar" para publicarla en la clase.
+      </p>
+      <p>
+        <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
+      </p>
+
+      <h3 id="crear_formularios" style="color: blue">
+        Crear cuestionarios
+      </h3>
+      <p>
+        Una "Tarea con cuestionario" en Google Classroom es una función especializada que permite al docente crear y
+        asignar automáticamente un examen o evaluación formativa a través de "Google Forms", facilitando la
+        recolección y corrección de respuestas, y la importación de calificaciones. Para crearla, el docente debe ir a
+        la pestaña "Trabajo en clase", hacer clic en "+ Crear" y seleccionar "Tarea con cuestionario", lo
+        que generará un formulario en blanco ("Blank Quiz"); al hacer clic en este formulario, se abre Google Forms,
+        donde se diseñan las preguntas, se definen las respuestas correctas y se asignan los puntos, para luego volver a
+        Classroom, completar los detalles de la asignación (título, instrucciones, tema, fecha de entrega) y finalmente
+        hacer clic en "Asignar".
+      </p>
+      <p>
+        <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
+      </p>
+
+      <h3 id="crear_preguntas" style="color: blue">Crear Preguntas</h3>
+      <p>
+        La opción "Pregunta" en Google Classroom es una herramienta simple y directa dentro de la pestaña "Trabajo en
+        clase" que permite al profesor iniciar debates rápidos, realizar diagnósticos o recoger respuestas concisas y
+        evaluables de los alumnos, sin la necesidad de crear un archivo adjunto. Para crear una, el docente accede a
+        "Trabajo en clase", hace clic en "+ Crear" y selecciona "Pregunta", donde puede elegir entre un formato de
+        "Respuesta corta" (ideal para opiniones o reflexiones) o "Opción múltiple"; después de escribir la pregunta y
+        las instrucciones, se configuran opciones como la puntuación, la fecha de entrega y, crucialmente, si los
+        alumnos podrán editar su respuesta después de enviarla y si pueden responder a sus compañeros para fomentar la
+        interacción en el aula.
+      </p>
+      <p>
+        <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
+      </p>
+
+      <h3 id="crear_material" style="color: blue">Crear Materiales</h3>
+      <p>
+        La función "Material" en Google Classroom es una herramienta dentro de la pestaña "Trabajo en clase" que se
+        utiliza para compartir recursos informativos y de apoyo que no requieren una entrega ni calificación por parte
+        del alumno, como programas de estudio, lecturas, enlaces de interés, videos o guías de referencia. Para crear
+        uno, el profesor debe dirigirse a "Trabajo en clase", hacer clic en "+ Crear" y seleccionar "Material"; una vez
+        allí, debe ingresar un título y una descripción, y puede adjuntar múltiples archivos (desde su equipo, Google
+        Drive), enlaces web o videos de YouTube, para finalmente asignarlo a un Tema específico y publicarlo de
+        inmediato, o programarlo, garantizando que los alumnos tengan un repositorio organizado y permanente de la
+        información fundamental del curso.
+      </p>
+      <p>
+        <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
+      </p>
+
+      <h3 id="reutilizacion" style="color: blue">
+        Reutilización de material
+      </h3>
+      <p>
+        La opción "Reutilizar publicación" en Google Classroom es una función que ahorra tiempo al profesor,
+        permitiéndole duplicar rápidamente cualquier tipo de contenido (tareas, preguntas, materiales o anuncios) de una
+        clase existente, ya sea activa o archivada, y publicarlo en la clase actual o en otra. Para utilizarla, el
+        docente debe ir a la pestaña "Trabajo en clase" (o al tablón para anuncios), hacer clic en "Crear" y
+        seleccionar "Reutilizar publicación"; luego elige la clase de origen y la publicación específica que desea
+        duplicar, lo que abre una ventana donde puede editar el título, las instrucciones, el puntaje, la fecha de
+        entrega y, si es necesario, seleccionar la opción de "Crear copias" de los archivos adjuntos, antes de
+        asignarla o programarla en la nueva clase.
+      </p>
+      <p>
+        <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
+      </p>
+
+      <h3 id="crear_tema" style="color: blue">Crear temas</h3>
+      <p>
+        La creación de "Temas" en Google Classroom es una función fundamental para estructurar y organizar la página
+        "Trabajo en clase" por unidades, módulos, o cualquier categoría lógica, lo que facilita enormemente la
+        navegación y la localización de contenidos tanto para el profesor como para los alumnos. Para crear un tema, el
+        profesor debe ir a la pestaña "Trabajo en clase", hacer clic en "Crear" y seleccionar la opción
+        "Tema", escribir el nombre deseado (por ejemplo, "Unidad 1: Introducción" o "Material de Apoyo"), y hacer
+        clic en "Añadir"; una vez creado, los temas aparecen como encabezados en la lista de trabajo y en el menú
+        lateral de la izquierda, permitiendo arrastrar y soltar las tareas, preguntas o materiales ya creados debajo de
+        ellos, o asignarlos directamente a un tema al momento de su creación.
+      </p>
+      <p>
+        <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
+      </p>
+
+      <h3 id="asignar_alumnos" style="color: blue">Asignar alumnos</h3>
+      <p>
+        Asignar alumnos a una clase en Google Classroom se refiere al proceso de invitar o matricular estudiantes para
+        que puedan acceder al contenido, tareas y debates del curso. Existen principalmente tres métodos para lograrlo:
+        el más sencillo es compartir el "Código de la Clase", el cual se encuentra en la pestaña "Tablón" o
+        "Configuración" de la clase, para que el alumno lo ingrese en la opción "Unirse a la clase"; alternativamente,
+        el profesor puede ir a la pestaña "Personas", hacer clic en el ícono "Invitar alumnos" y escribir sus
+        "direcciones de correo electrónico" para enviarles una invitación directa, o bien, compartir el "Enlace de
+        Invitación" de la clase para que se unan haciendo clic en él.
+      </p>
+      <p>
+        <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
+      </p>
+
+      <h3 id="asignar_temas" style="color: blue">Asignar temas</h3>
+      <p>
+        La asignación de tareas en Google Classroom es la función central para crear, distribuir, recopilar y calificar
+        actividades académicas que requieren una entrega por parte del estudiante. Para asignar una, el profesor debe ir
+        a la pestaña "Trabajo en clase", hacer clic en "+ Crear" y seleccionar "Tarea"; a continuación, debe
+        ingresar un título, detallar las instrucciones, adjuntar materiales de apoyo (desde Drive, un archivo o un
+        enlace), y configurar parámetros esenciales como la puntuación, la fecha y hora de entrega límite, el "Tema"
+        al que pertenece, y opcionalmente, una "rúbrica de evaluación" y la selección de alumnos específicos o
+        múltiples clases, para luego finalizar el proceso al hacer clic en "Asignar" o "Programar" su
+        publicación.
+      </p>
+      <p>
+        <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
+      </p>
+
+      <h3 id="material" style="color: blue">
+        Subir archivos, formularios, enlaces, carpetas drive, video
+      </h3>
+      <p>
+        Para enriquecer cualquier publicación, ya sea una tarea o un material, Google Classroom facilita la adjunción de
+        diversos recursos a través del botón "Añadir" dentro de la ventana de creación. Desde allí, el usuario puede
+        seleccionar "Google Drive" para vincular archivos y "carpetas" almacenados en su nube (manteniendo el
+        historial de versiones y permisos), "Enlace" para compartir URLs de páginas web o recursos externos,
+        "Archivo" para subir directamente documentos, imágenes o videos desde su ordenador, o "YouTube" para
+        buscar e incrustar videos; en el caso de formularios y otros documentos de Google Workspace, se recomienda
+        crearlos y luego adjuntarlos desde Drive. Es importante que, al adjuntar un archivo de Google Drive a una tarea,
+        se elija la opción adecuada de permisos: "Los alumnos pueden ver el archivo", "Los alumnos pueden editar el
+        archivo" (para trabajo colaborativo) o "Hacer una copia para cada alumno" (para entrega individual).
+      </p>
+
+      <p>
+        <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
+      </p>
+
+      <h3 id="configurar_entrega" style="color: blue">
+        Configurar fechas y formas de entrega
+      </h3>
+      <p>
+        Configurar las condiciones de entrega en Google Classroom es crucial para establecer expectativas y organizar el
+        flujo de trabajo. Al crear una Tarea en la pestaña "Trabajo en clase", el profesor configura la "fecha y
+        hora límite de entrega" en la sección lateral derecha, lo cual marca la tarea como "Entregada con retraso" si
+        el alumno la envía después de ese plazo, aunque Classroom, por defecto, permite la entrega tardía. En cuanto a
+        la "forma de entrega", esta se define al adjuntar archivos de Google Drive: el profesor elige si los alumnos
+        pueden "ver el archivo" (solo lectura), "editar el archivo" (trabajo colaborativo en un único documento)
+        o si desea "Hacer una copia para cada alumno", que es el método más común para trabajos individuales, ya que
+        automáticamente crea y asigna una copia personal que el alumno editará y entregará al hacer clic en
+        "Entregar" en la plataforma, o "Marcar como completada" si la tarea no requiere la subida de un archivo.
+      </p>
+      <p>
+        <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
+      </p>
+
+      <h3 id="realizar_entregas" style="color: blue">
+        Entregas
+      </h3>
+      <p>
+        Las entregas en Google Classroom son el acto formal por el cual un estudiante remite su trabajo completado (que
+        puede ser un archivo, un documento editado, o la finalización de una actividad) al profesor a través de la
+        plataforma. Este proceso notifica al profesor que el trabajo está listo para ser revisado y calificado. Una vez
+        que el alumno pulsa el botón "Entregar" (o "Marcar como completada" si no hay archivos adjuntos), la
+        tarea pasa de estar en estado "Asignada" a "Entregada" o, si fue enviada después del plazo límite configurado
+        por el profesor, a "Entregada con retraso". Esencialmente, la entrega es el punto de control digital que sella
+        el final de la fase de ejecución de la tarea por parte del alumno y da inicio a la fase de calificación por
+        parte del docente.
+      </p>
+      <table>
+        <tr>
+          <th>
+            <h4>Para el docente ( verificar )</h4>
+          </th>
+          <th>
+            <h4>Para el estudiante ( realizar )</h4>
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <p>Desde la perspectiva del docente, la gestión de las entregas en Google Classroom es el proceso de
+              monitorear, revisar, calificar y devolver el trabajo de los estudiantes. Para gestionarlas, el profesor
+              debe dirigirse a la pestaña "Trabajo en clase" y hacer clic en la tarea para ver el resumen de estado,
+              donde se muestra el número de alumnos que han "Entregado", "Asignado" (pendientes) y
+              "Calificado". Al hacer clic en el número de "Entregados", accede a la página de trabajo de los
+              alumnos, donde puede revisar individualmente cada archivo adjunto, ingresar una calificación en el panel
+              lateral, utilizar el banco de comentarios o añadir comentarios privados, y finalmente, hacer clic en
+              "Devolver" para notificar al alumno su nota y cualquier retroalimentación, cerrando el ciclo de
+              entrega-calificación.</p>
+          </td>
+          <td>
+            <p>
+              Las entregas en Google Classroom, desde la perspectiva del estudiante, son el acto de finalizar y enviar
+              el
+              trabajo asignado al profesor. Para realizar una entrega, el estudiante debe acceder a la tarea específica
+              en
+              la sección "Trabajo en clase", donde encontrará un panel llamado "Tu trabajo"; si la tarea ya
+              incluye un documento personal asignado por el profesor, el alumno solo debe completarlo y pulsar
+              "Entregar" en el documento o en el panel de la tarea, mientras que si requiere adjuntar su propio
+              material, debe usar "+ Añadir o crear" para subir archivos desde su dispositivo, Google Drive o un
+              enlace, y luego hacer clic en "Entregar" para confirmar que el trabajo está listo para ser calificado,
+              momento en el cual la tarea cambia su estado a "Entregada". En el caso de trabajos sin archivos de
+              entrega,
+              como una lectura, simplemente se hace clic en "Marcar como completada" para notificar al docente.
+            </p>
+
+          </td>
+        </tr>
+      </table>
+      <p>
+        <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
+      </p>
+
+      <h3 id="rubricas" style="color: blue">Rúbricas</h3>
+      <p>
+        Una "rúbrica" en Google Classroom es una herramienta de evaluación que sirve como guía detallada para definir
+        y comunicar los criterios de calificación de una tarea, garantizando transparencia al estudiante sobre lo que se
+        espera y proporcionando una corrección más objetiva y rápida al profesor. Se utilizan para desglosar la nota
+        total en criterios específicos y niveles de logro (por ejemplo, "Excelente", "Satisfactorio"), especificando la
+        puntuación de cada uno. Para crearla, el docente debe ir a la pestaña "Trabajo en clase", crear o editar una
+        tarea, y en el panel derecho hacer clic en "+ Rúbrica" (o "Guía de evaluación"); allí puede elegir "Crear
+        rúbrica", donde añade cada "criterio" de evaluación con su título y descripción, le asigna una puntuación y
+        define los ""niveles" de desempeño, para luego guardar y asociarla a la tarea, pudiendo además reutilizarla o
+        importarla desde Hojas de cálculo.
+      </p>
+      <p>
+        <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
+      </p>
+
+      <h3 id="programar" style="color: blue">Programar publicación</h3>
+      <p>
+        La "programación de tareas" en Google Classroom es una función que permite al profesor preparar una tarea,
+        pregunta o material didáctico con antelación y establecer una fecha y hora futura para que se publique
+        automáticamente en el tablón y la sección "Trabajo en clase" de los alumnos. Sirve principalmente para que el
+        docente pueda organizar y planificar su contenido semanal o mensual en un solo momento, asegurando que las
+        actividades se publiquen en el horario escolar apropiado, incluso si el profesor no está conectado en ese
+        momento, lo que mejora la gestión del tiempo y la coherencia en la distribución del trabajo. Para programar, el
+        profesor crea la tarea con sus instrucciones y ajustes de forma habitual y, en lugar de hacer clic en
+        "Asignar", despliega el menú junto a este botón (o el icono de la flecha hacia abajo) y selecciona la opción
+        "Programar", eligiendo la fecha y hora exacta de publicación deseada.
+      </p>
+      <p>
+        <a href="#recursos" style="font-size: 12px">Volver a recursos</a>
+      </p>
+    </ul>
+    </li>
+    </ul>
+  </main>
+  <aside>
+    <div>
+      <ul>
+        <h1>Herramientas de Google</h1>
+        <li><a href="crear_cuenta.html">Crear cuenta Google</a></li>
+        <li>
+          <a href="acceder_cuenta.html">Acceder a cuenta Google</a>
+        </li>
+        <li><a href="documentos.html">Google Docs</a></li>
+        <li><a href="sitios.html">Google Sites</a></li>
+        <li><a href="formularios.html">Google Form</a></li>
+        <li><a href="gemini.html">Geminis</a></li>
+        <li><a href="planillas.html">Google Sheet</a></li>
+        <li><a href="index.html">Inicio</a></li>
+      </ul>
+    </div>
+    <hr />
+    <p><u>Autor</u>: Juan Pablo Rodriguez</p>
+    <p><u>Materia</u>: Recursos aplicados a otras disciplinas</p>
+    <p><u>Profesor</u>: Claudio Guecia</p>
+    <p><u>Año</u>: 2025</p>
+  </aside>
+  <footer>
+    <a href="documentos.html">Google Docs</a>
+    <p></p>
+    <a href="sitios.html">Google Sites</a>
+    <p></p>
+    <a href="formularios.html">Google Form</a>
+    <p></p>
+    <a href="gemini.html">Geminis</a>
+    <p></p>
+    <a href="classroom.html">Google Classroom</a>
+    <p></p>
+    <a href="planillas.html">Google Sheet</a>
+    <p></p>
+    <a href="index.html">Inicio</a>
+  </footer>
+  <script src="java.js"></script>
+</body>
+
 </html>
