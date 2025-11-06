@@ -41,6 +41,20 @@ table {
   */
 }
 
+table {
+  /*
+  border-color: skyblue;
+  border-radius: 5cm;
+  box-shadow: 5px 5px 5px gray;
+  border-style: dotted dashed solid double;
+  border-width: 5px;
+  border-color: red green purple orange;
+  */
+  padding: 10px;
+  margin: 10px;
+  border-color: aqua;
+}
+
 header,
 main,
 aside,
@@ -242,3 +256,12 @@ td {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
+#lnkvolver {
+  text-align: right;
+}
+
+#video {
+  text-align: center;
+}
+
